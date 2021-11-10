@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/pl.png">
+    <title>Magical travel</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+<div id="menu-bar" class="fas fa-bars"></div>
+
+
+
+<a href="#" class="logo"> <span>M</span>agical travel</a>
+<nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#book">book</a>
+    <a href="#pakages">packages</a>
+    <a href="#service">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#contact">contact</a>
+</nav>
+
+<div class="icons">
+
+<i class="fas fa-search" id="search-btn"></i>
+<i class="fas fa-user" id="login-btn"></i> 
+</div>
+
+
+<form action="" class="search-bar-container">
+    <input type="search"  id="search-bar" placeholder="search ...">
+    <label for="search-bar"><i class="fas fa-search" id="search-btn"></i></label>
+
+
+    
+</form>
+
+</header>
+<div class="login-cont">
+    <i class="fas fa-times" id="form-fa"></i>
+
+    <form action="">
+<h3>login</h3>
+<input type="email" class="box" placeholder="enter your email">
+<input type="password" class="box" placeholder="enter your password">
+<input type="submit" value="login now" class="btn">
+<input type="checkbox" id="remember">
+<label for="remember"> remember me</label>
+<p>forget password?? <a href="">click here</a></p>
+<p>dont have account?? <a href="">register</a></p>
+
+
+    </form>
+
+</div>
+
+<!--home section الفيديوز -->
+<section class="home" id="home">
+
+<div class="content">
+    <h3>Book with us and live the adventure</h3>
+    <p>Discover new areas with us , and have fun</p>
+    <a href="" class="btn">Browse more</a>
+    
+</div>
+
+
+<div class="controls">
+    <span class="vid-btn active" data-src="videos/video 3.mp4"></span>
+    <span class="vid-btn" data-src="videos/video 2.mp4"></span>
+    <span class="vid-btn" data-src="videos/video1.mp4"></span>
+    <span class="vid-btn" data-src="videos/video 4.mp4"></span>
+    <span class="vid-btn" data-src="videos/video 5.mp4"></span>
+</div>
+
+<div class="video-container">
+<video src="videos/video 3.mp4" id="video-slider" loop autoplay muted></video>
+</div>
+
+</section>
+
+<!-- book قسم الحجوزات -->
+
+<section class="book" id="book">
+<h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+
+</h1>
+
+<div class="row">
+    <div class="image">
+<img src="images/undraw_Travel_booking_re_6umu.svg" alt="">
+    </div>
+
+    <form action="">
+<div class="inputbox">
+    <h3>Where do you want to go</h3>
+    <input type="text" placeholder="place name">
+</div>
+
+<div class="inputbox">
+    <h3>How many passengers</h3>
+    <input type="number" placeholder="number of guests">
+</div>
+
+<div class="inputbox">
+    <h3>arrivals</h3>
+    <input type="date">
+</div>
+
+<div class="inputbox">
+    <h3>leaving</h3>
+    <input type="date">
+</div>
+
+<input type="submit" class="btn" value="booknow">
+    </form>
+
+
+</div>
+
+</section>
+
+<!--سكشن2 -->
+
+<section class="pakages" id="pakages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/hawaii.jpg" alt="">
+            <div class="content">
+             <h3> <i class="fas fa-map-marker-alt"></i>hawaii beach</h3>
+             <p>Enjoy the atmosphere of the beaches of Hawaii and live the adventure. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5000 <span>9000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/france.jpg" alt="">
+            <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>france</h3>
+             <p>Come see the Paris Tower up close and live the adventure. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5000 <span>$9000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/italy.jpg" alt="">
+            <div class="content">
+             <h3> <i class="fas fa-map-marker-alt"></i>italy</h3>
+             <p>Come see Italy closely and live their culture. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$5000 <span>$9000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/japan.jpg" alt="">
+            <div class="content">
+             <h3> <i class="fas fa-map-marker-alt"></i>japan</h3>
+             <p>Do not miss the opportunity to learn about Japanese culture.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$6000 <span>$10000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/maldives.jpg" alt="">
+            <div class="content">
+             <h3> <i class="fas fa-map-marker-alt"></i>maldives</h3>
+             <p>Book here and you will not regret the beauty of the beaches of the Maldives. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$6000 <span>$12000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/egypt.jpg" alt="">
+            <div class="content">
+             <h3> <i class="fas fa-map-marker-alt"></i>egypt</h3>
+             <p>See the ancient Egyptian pyramids and their enchanting beauty. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">$1000 <span>$2000</span></div>
+            <a href="" class="btn">book now</a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</section>
+
+
+<!--سكشن 3 -->
+
+
+<section class="services" id="service">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hotels at good prices</h3>
+            <p>We offer hotels with the best services and competitive prices for you..</p>   
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>we protect your personal safety and we are responsible for it</p>   
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fast and fun trip</h3>
+            <p>The journey is fast and enjoyable on our plane that provides services to you</p>   
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>affordable hotels</h3>
+            <p>Our tours cover most of the known countries and unknown regions</p>   
+        </div>
+
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>We cover most regions of the world</h3>
+            <p>Our tours cover most of the known countries and unknown regions</p>   
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Live the adventure and enjoy your trip with us..</p>   
+        </div>
+
+
+    </div>
+
+</section>
+
+<!--قسم الصور -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>  
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/p1.jpg" alt="">
+            <div class="content">
+           <h3> Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p2.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p3.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p4.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p5.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p6.jpg" alt="">
+            <div class="content">
+                <h3>Beautiful places</h3>
+                <p>Watch the beauty of nature, and live the adventure</p>
+                <a href="" class="btn">more</a>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+</section>
+
+<!--قسم التواصل -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>  
+    </h1>
+
+<div class="row">
+    <div class="image">
+        <img src="images/undraw_journey_lwlj.svg" alt="">
+    </div>
+    <form action="">
+        <div class="inputbox">
+            <input type="text" placeholder="your name plz">
+            <input type="email" placeholder="your email plz">
+        </div>
+        <div class="inputbox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send the feedback">
+
+
+
+    </form>
+
+</div>
+
+</section>
+<br><br><br><br>
+
+<!--footer :) -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Through our website, you can book all the flights that come to your mind at competitive prices. Good luck, dude.</p>
+        </div>
+
+        <div class="box">
+            <h3>location</h3>
+            <a href="">jordan</a>
+            <a href="">usa</a>
+            <a href="">ksa</a>
+            <a href="">España</a>
+            <a href="">France</a>
+            <a href="">japan</a>
+        </div>
+
+        <div class="box">
+            <h3>links</h3>
+            <a href="#home">home</a>
+    <a href="#book">book</a>
+    <a href="#pakages">packages</a>
+    <a href="#service">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us in our social media </h3>
+            <a href="https://www.facebook.com/khasawneh.d"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/diya_khasawneh/"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/diya-khasawneh-/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+           
+        </div>
+
+
+
+    </div>
+    <h1 class="credit">created by <span>diya khasawneh</span>  </h1>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="vanilla-tilt.min.js"></script>
+
+<script>
+VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+	
+	
+
+</script>
+    
+</body>
+</html>
